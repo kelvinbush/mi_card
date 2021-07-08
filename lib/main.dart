@@ -37,6 +37,52 @@ class MyApp extends StatelessWidget {
                   color: Colors.teal.shade100,
                   fontWeight: FontWeight.bold,
                   fontFamily: 'SourceSansPro'),
+            ),
+            Container(
+              color: Colors.white,
+              margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+              padding: EdgeInsets.all(10.0),
+              child: Row(
+                children: [
+                  Icon(
+                    Icons.phone,
+                    color: Colors.teal,
+                  ),
+                  SizedBox(
+                    width: 10.0,
+                  ),
+                  Text(
+                    "+254795778730",
+                    style: TextStyle(
+                        color: Colors.teal.shade900,
+                        fontFamily: 'SourceSansPro',
+                        fontSize: 20.0),
+                  )
+                ],
+              ),
+            ),
+            Container(
+              color: Colors.white,
+              margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+              padding: EdgeInsets.all(10.0),
+              child: Row(
+                children: [
+                  Icon(
+                    Icons.email,
+                    color: Colors.teal,
+                  ),
+                  SizedBox(
+                    width: 10.0,
+                  ),
+                  Text(
+                    "kely.wachiye@gmail.com",
+                    style: TextStyle(
+                        color: Colors.teal.shade900,
+                        fontFamily: 'SourceSansPro',
+                        fontSize: 20.0),
+                  )
+                ],
+              ),
             )
           ],
         )),
